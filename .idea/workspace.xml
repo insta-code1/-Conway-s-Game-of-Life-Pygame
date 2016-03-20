@@ -14,7 +14,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pygame-GameOfLife$Unittest_test_game_of_life_test_next_generation_of_empty_pattern_is_empty.coverage" NAME="Unittest test_game_of_life.test_next_generation_of_empty_pattern_is_empty Coverage Results" MODIFIED="1458514149760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pygame-GameOfLife$game_of_life.coverage" NAME="game_of_life Coverage Results" MODIFIED="1458512885953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pygame-GameOfLife$Unittests_in_test_game_of_life.coverage" NAME="Unittests in test_game_of_life Coverage Results" MODIFIED="1458515030956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pygame-GameOfLife$Unittest_test_game_of_life_test_can_count_live_neighbours_of_a_cell.coverage" NAME="Unittest test_game_of_life.test_can_count_live_neighbours_of_a_cell Coverage Results" MODIFIED="1458515014629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,13 +28,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="game_of_life.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game_of_life.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_of_life.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9829932">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_game_of_life.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_game_of_life.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53125">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +75,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/colours.py" />
+        <option value="$PROJECT_DIR$/test_game_of_life.py" />
         <option value="$PROJECT_DIR$/game_of_life.py" />
       </list>
     </option>
@@ -70,10 +86,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1359" />
-    <option name="y" value="-312" />
-    <option name="width" value="974" />
-    <option name="height" value="1052" />
+    <option name="x" value="2241" />
+    <option name="y" value="-296" />
+    <option name="width" value="1037" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -131,7 +147,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Python.game_of_life">
+  <component name="RunManager" selected="Python tests.Unittests in test_game_of_life">
     <configuration default="false" name="game_of_life" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,6 +164,75 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_of_life.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest test_game_of_life.test_next_generation_of_empty_pattern_is_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pygame-GameOfLife" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_game_of_life.py" />
+      <option name="CLASS_NAME" value="test_game_of_life" />
+      <option name="METHOD_NAME" value="test_next_generation_of_empty_pattern_is_empty" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest test_game_of_life.test_can_count_live_neighbours_of_a_cell" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pygame-GameOfLife" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_game_of_life.py" />
+      <option name="CLASS_NAME" value="test_game_of_life" />
+      <option name="METHOD_NAME" value="test_can_count_live_neighbours_of_a_cell" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_game_of_life" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pygame-GameOfLife" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_game_of_life.py" />
+      <option name="CLASS_NAME" value="test_game_of_life" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -338,12 +423,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.game_of_life" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest test_game_of_life.test_next_generation_of_empty_pattern_is_empty" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest test_game_of_life.test_can_count_live_neighbours_of_a_cell" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_game_of_life" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.game_of_life" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_game_of_life" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest test_game_of_life.test_can_count_live_neighbours_of_a_cell" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest test_game_of_life.test_next_generation_of_empty_pattern_is_empty" />
+        <item index="3" class="java.lang.String" itemvalue="Python.game_of_life" />
       </list>
     </recent_temporary>
   </component>
@@ -357,17 +448,34 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittest_test_game_of_life_test_can_count_live_neighbours_of_a_cell - 2016.03.20 at 23h 03m 06s.xml">
+      <configuration name="Unittest test_game_of_life.test_can_count_live_neighbours_of_a_cell" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_game_of_life_test_can_count_live_neighbours_of_a_cell - 2016.03.20 at 23h 03m 41s.xml">
+      <configuration name="Unittest test_game_of_life.test_can_count_live_neighbours_of_a_cell" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_game_of_life_test_next_generation_of_empty_pattern_is_empty - 2016.03.20 at 22h 47m 27s.xml">
+      <configuration name="Unittest test_game_of_life.test_next_generation_of_empty_pattern_is_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_game_of_life_test_next_generation_of_empty_pattern_is_empty - 2016.03.20 at 22h 49m 18s.xml">
+      <configuration name="Unittest test_game_of_life.test_next_generation_of_empty_pattern_is_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_of_life - 2016.03.20 at 23h 03m 56s.xml">
+      <configuration name="Unittests in test_game_of_life" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="-312" width="974" height="1052" extended-state="0" />
+    <frame x="2241" y="-296" width="1037" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25164112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23541453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33406836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -401,10 +509,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_of_life.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9829932">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_game_of_life.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53125">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
